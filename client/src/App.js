@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
 
     async function fetchMyApi() {
-      const { data: { msg } } = await axios.get('http://localhost:3000');
+      const { data: { msg } } = await axios.get('/api');
       setState(msg);
     }
     
