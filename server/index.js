@@ -1,11 +1,11 @@
 const express = require('express')
 const cors = require('cors')
 const app = express()
-const port = 3000
+const port = 5000
 
 app.use(cors())
 
-app.get('/', function (req, res, next) {
+app.get('/api', function (req, res, next) {
   res.json({msg: 'This is CORS-enabled for all origins!'})
 })
 
