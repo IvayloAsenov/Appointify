@@ -1,4 +1,5 @@
 import axios from 'axios'
+import Header from './header/Header'
 import LandingPage from './landing-page/LandingPage'
 import React, { useState, useEffect } from 'react'
 
@@ -14,7 +15,8 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="">
+      <Header></Header>
       <LandingPage> </LandingPage>
     </div>
   );

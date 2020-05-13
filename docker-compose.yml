@@ -5,8 +5,8 @@ services:
       dockerfile: Dockerfile.dev
       context: ./server
     volumes:
-      - /app/node_modules
       - ./server:/app
+      - /app/node_modules
   client:
     build:
       dockerfile: Dockerfile.dev

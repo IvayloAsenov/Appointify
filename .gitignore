@@ -5,6 +5,11 @@ client/node_modules
 client/.pnp
 client/.pnp.js
 
+# env variables
+client/.env
+
+client/package-lock.json
+
 # testing
 client/coverage
 
@@ -21,5 +26,7 @@ client/.env.production.local
 client/npm-debug.log*
 client/yarn-debug.log*
 client/yarn-error.log*
+
+
 
 .DS_Store
